@@ -1,9 +1,14 @@
 <Doctype>
 	<html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>Site about a colleague</title>
 		<link rel="stylesheet" href="styles.css">
+		<link href='https://unpkg.com/css.gg@2.0.0/icons/css/music-note.css' rel='stylesheet'>
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"> </script>
 		<script src="script.js"></script>
 	</head>
@@ -16,19 +21,38 @@
 			</div>
 			<div id="interests">
 				<h2>Interests</h2>
-				<!--- add piano img here -->
 				<ul>
-					<li>played piano since 8<br>
+
+					<li>
+						<i class="gg-music-note"></i><br>
+						played piano since 8<br>
 						<button id='song-btn' type="button">tap to find out what song he can play</button>
 						<div id="reveal-song"></div>
 					</li>
-					<li>Cycling</li>
-					<li>Running<br>
+
+					
+					<li>
+						<i class="fa fa-bicycle" style="font-size:36px;"></i><br>
+						Cycling
+					</li>
+
+					<li>
+						<!-- 
+							the car below is a placeholder, 
+							I couldn't find an appropriate running person emoji
+						-->
+						<i class="fa fa-car" style='font-size:36px'></i><br>
+						Running<br>
 						<button id='miles-btn' type="button">tap to find out how many miles a week</button>
 						<div id="reveal-miles"></div>
 					</li>
-					<li>Staying active</li>
+
+					<li>
+						<i class="fa fa-heart" style='font-size:36px'></i><br>
+						Staying active
+					</li>
 					<!-- add musical note img here -->
+					<i class="gg-music"></i>
 					<li>Music <br>
 						<input type="submit" id="music-portal">tap to find out what music (opens new page)</input>
 					</li>

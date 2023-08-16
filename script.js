@@ -34,7 +34,7 @@ $(document).ready(function () {
 
 
 const addPianoSong = function () {
-    $('#reveal-song').html("The Entertainer by Scott Joplin - a ragtime tune from 19")
+    $('#reveal-song').html("The Entertainer by Scott Joplin  (a ragtime tune from early 1900s")
     
 }
 
