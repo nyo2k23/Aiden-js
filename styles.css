@@ -1,0 +1,42 @@
+#main {
+    text-align: center;
+    margin: auto;
+    color: #000c10;
+    padding: 10%;
+}
+
+
+#banner {
+    padding: 50px;
+    text-align: center;
+    background: #30b9db;
+    color: white;
+    font-size: 10px;
+  }
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+.music-img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(225, 117, 220, 0.5);
+  }
